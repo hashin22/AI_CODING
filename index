@@ -5,8 +5,9 @@
   <body>
     <h1>My Aritificial Intelligence</h1>
     <hr>
-<ul>
-<li> href = https://teachablemachine.withgoogle.com/models/njcZVWIAI/</li>
-</ul>
+<p>
+<a href = "https://teachablemachine.withgoogle.com/models/njcZVWIAI/"> 무와 내 얼굴 비교 </a>
+<a href = "https://teachablemachine.withgoogle.com/models/8r4zinLSp/"> 왼손과 오른손 비교 </
+</p>
   </body>
 </html>
