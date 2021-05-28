@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/p5js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let balls = [];
+
+        function Ball(size){
+            this.size = size;
+            this.x = random(0, width);
+            this.y = random(0, height);
+
+            this.display = function(){
+                fill(50, 200, 50);
+                stroke("red")
+                ellipse(this.x, this.y, this.size, this.size);
+            }
+        }
+
+        function setup(){
+            createCanvas(600, 600);
+            background(220);
+
+            for(i =0; i < 10; i++){
+                a = random(30, 100)
+                balls.push(new Ball(a))
+
+
+            }
+            console.log(balls)
+
+        }
+
+
+
+        function draw(){
+            for(i = 0; i < 10; i++){
+                balls[i].display();
+            }
+        }
+    </script>
+</body>
+</html> 
