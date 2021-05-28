@@ -1,13 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>나의 AI</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI_신하란_CODING</title>
   </head>
   <body>
-    <h1>My Aritificial Intelligence</h1>
-    <hr>
-<p>
-<a href = "https://teachablemachine.withgoogle.com/models/njcZVWIAI/"> 무와 내 얼굴 비교 </a>
-<a href = "https://teachablemachine.withgoogle.com/models/8r4zinLSp/"> 왼손과 오른손 비교 </
-</p>
+    <h3>
+      202022324 신하란
+    </h3>
+    
+    <ul>
+      <li><a href = "https://teachablemachine.withgoogle.com/models/njcZVWIAI/" target="_blank"> 무와 내 얼굴 비교 </a></li>
+      <li><a href="https://teachablemachine.withgoogle.com/models/2ir9JNb3-/" target="_blank">Teachable Machine[물병 / 휴대폰 구분] (5월 7일)</a></li>
+      <li><a href="https://teachablemachine.withgoogle.com/models/YoNniUgPm/" target="_blank">Teachable Machine[왼팔 / 오른팔 구분] (5월 7일)</a></li>
+      <li><a href="https://makecode.microbit.org/_H8MU8iXo6A5P" target="_blank">microbit 가위바위보(5월 14일)</a></li>
+      <li><a href="https://makecode.microbit.org/_Dr1L9hUbe8T5" target="_blank">microbit 폭탄피하기(5월 14일)</a></li>
+    </ul>
   </body>
 </html>
